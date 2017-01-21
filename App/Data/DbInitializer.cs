@@ -2,7 +2,6 @@ using System;
 using System.Linq;
 using App.Models;
 
-
 namespace App.Data
 {
     public static class DbInitializer
