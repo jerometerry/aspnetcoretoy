@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace WebApplication.Data.Migrations
+namespace App.Data.Migrations
 {
     public partial class School : Migration
     {

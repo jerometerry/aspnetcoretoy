@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WebApplication.Models
+namespace App.Models
 {
     public class Course
     {

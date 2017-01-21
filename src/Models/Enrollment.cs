@@ -1,4 +1,4 @@
-namespace WebApplication.Models
+namespace App.Models
 {
     public enum Grade
     {

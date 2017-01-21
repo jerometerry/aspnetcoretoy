@@ -1,7 +1,7 @@
-using WebApplication.Models;
+using App.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace WebApplication.Data
+namespace App.Data
 {
     public class SchoolContext : DbContext
     {

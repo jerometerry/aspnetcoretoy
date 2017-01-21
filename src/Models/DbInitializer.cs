@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
-using WebApplication.Data;
+using App.Data;
 
 
-namespace WebApplication.Models
+namespace App.Models
 {
     public static class DbInitializer
     {

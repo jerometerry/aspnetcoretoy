@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace WebApplication.Models
+namespace App.Models
 {
     public class Student
     {

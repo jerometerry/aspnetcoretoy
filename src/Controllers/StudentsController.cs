@@ -2,10 +2,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WebApplication.Data;
-using WebApplication.Models;
+using App.Data;
+using App.Models;
 
-namespace WebApplication.Controllers
+namespace App.Controllers
 {
     public class StudentsController : Controller
     {

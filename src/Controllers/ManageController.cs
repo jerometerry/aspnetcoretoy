@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using WebApplication.Models;
-using WebApplication.Models.ManageViewModels;
+using App.Models;
+using App.Models.ManageViewModels;
 
-namespace WebApplication.Controllers
+namespace App.Controllers
 {
     [Authorize]
     public class ManageController : Controller

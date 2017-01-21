@@ -1,4 +1,4 @@
-namespace WebApplication.Models.ManageViewModels
+namespace App.Models.ManageViewModels
 {
     public class IndexViewModel
     {

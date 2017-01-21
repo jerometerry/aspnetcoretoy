@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using WebApplication.Models;
-using WebApplication.Models.AccountViewModels;
+using App.Models;
+using App.Models.AccountViewModels;
 
-namespace WebApplication.Controllers
+namespace App.Controllers
 {
     [Authorize]
     public class AccountController : Controller
