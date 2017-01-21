@@ -44,10 +44,6 @@ namespace WebApplication.Controllers
             var model = new IndexViewModel
             {
                 HasPassword = await userManager.HasPasswordAsync(user),
-                PhoneNumber = await userManager.GetPhoneNumberAsync(user),
-                TwoFactor = await userManager.GetTwoFactorEnabledAsync(user),
-                Logins = await userManager.GetLoginsAsync(user),
-                BrowserRemembered = await signInManager.IsTwoFactorClientRememberedAsync(user)
             };
             return View(model);
         }
