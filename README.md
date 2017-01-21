@@ -9,12 +9,18 @@ Generated using [Yeoman aspnet generator](https://docs.microsoft.com/en-us/aspne
 
 Default configuration connects to Postgres on localhost via 127.0.0.1 (to get username / password authentication), using credentials username: aspnet_user password: dotnetrocks. The aspnet_user needs permission to create DBs and alter schema. 
 
-Run
+Setup
+
+git clone https://github.com/jerometerry/aspnetcoretoy.git
+
+cd ./aspnetcoretoy/App
+
+dotnet restore
+
+bower install
 
 dotnet ef database update --context ApplicationDbContext
 
-and then
-
 dotnet ef database update --context SchoolContext 
 
-to apply the migrations to create the DB
+dotnet run
