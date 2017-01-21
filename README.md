@@ -6,3 +6,15 @@ Generated using [Yeoman aspnet generator](https://docs.microsoft.com/en-us/aspne
 * [Source Code](https://github.com/aspnet/Docs/tree/master/aspnetcore/data/ef-mvc/intro/samples/cu-final)
 * [Dotnet EF Migrations For ASP.NET Core](http://benjii.me/2016/05/dotnet-ef-migrations-for-asp-net-core/)
 * [Adding EF Core and PostgreSQL to an ASP.NET Core project on OS X](http://andrewlock.net/adding-ef-core-to-a-project-on-os-x/)
+
+Default configuration connects to Postgres on localhost via 127.0.0.1 (to get username / password authentication), using credentials username: aspnet_user password: dotnetrocks. The aspnet_user needs permission to create DBs and alter schema. 
+
+Run
+
+dotnet ef database update --context ApplicationDbContext
+
+and then
+
+dotnet ef database update --context SchoolContext 
+
+to apply the migrations to create the DB
